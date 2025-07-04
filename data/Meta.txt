@@ -1,0 +1,21 @@
+HOME PAGE:
+
+TITLE: Izrada ključeva | standardni, specijalni i auto-ključevi
+
+DESCRIPTION: Bravarska radnja Novi Ključ pruža usluge narezivanja raznih vrsta ključeva. Izrađujemo i transponder ključeve za automobile, tagove i čip kartice 
+KEYWORD: izrada ključeva, programiranje čipa, transponder ključevi za automobile, novi ključ, tagovi, čip kartice
+
+O NAMA:
+
+TITLE: Bravarska radnja Novi Ključ | Barajevo
+
+DESCRIPTION: Bavimo se izradom i kopiranjem raznih vrsta ključeva i bravarskim uslugama na terenu.
+
+KONTAKT:
+TITLE: Bravarska radnja Novi Ključ 
+DESCRIPTION: Izrada i kopiranje raznih vrsta ključeva. Izlazimo na teren po vašem pozivu: POZIV TELEFON
+
+AUTO KLJUČEVI:
+
+TITLE: Izrada i kopiranje auto ključeva | transponder ključevi
+DESCRIPTION: Izrađujemo ili kopiramo obične i transponder auto ključeve sa programiranjem čipa. Izlazimo na teren u slučaju izgubljenih ključeva i dr. 
