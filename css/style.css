@@ -32,6 +32,9 @@ a {
 .font-weight-normal {
   font-weight: normal;
 }
+.font-display {
+  font-display: swap;
+}
 .button {
   background-color: var(--primary-link);
   border-radius: 50px;
