@@ -181,7 +181,7 @@
     font-size: 1.5rem;
   }
   .hero-image {
-    flex: 0 1 16rem;
+    flex: 0 1 20rem;
   }
   .hero-image img {
     max-width: 20rem;

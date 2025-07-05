@@ -32,9 +32,6 @@ a {
 .font-weight-normal {
   font-weight: normal;
 }
-.font-display {
-  font-display: swap;
-}
 .phone-call {
   display: inline-block;
   padding: 14px 28px;

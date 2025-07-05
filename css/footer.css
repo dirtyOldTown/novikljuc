@@ -56,6 +56,12 @@
   color: var(--secondary-white);
   background-color: var(--secondary-black);
 }
+.footer-end a {
+  color: var(--secondary-white);
+}
+.footer-end a:hover {
+  text-decoration: underline;
+}
 
 @media screen and (max-width: 992px) {
   .footer-main {
