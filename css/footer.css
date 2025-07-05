@@ -17,17 +17,17 @@
 }
 .footer-left-side {
   flex: 1 1 40rem;
+  line-height: 0.8rem;
 }
 .footer-left-side p {
   line-height: 2.4rem;
-  margin-top: 1.6rem;
 }
 .footer-center {
   flex: 1 1 40rem;
-  line-height: 1.2rem;
+  line-height: 1.6rem;
 }
 .footer-center div:first-of-type {
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.4rem;
 }
 .footer-right-side {
   flex: 1 1 40rem;
@@ -40,9 +40,8 @@
   font-weight: 700;
   font-family: 'Oswald-SemiBold';
 }
-.footer-right-side div {
+.footer-right-side > div {
   margin-bottom: 1.6rem;
-  margin-top: 0;
 }
 .line {
  border: 1px solid var(--border-line);

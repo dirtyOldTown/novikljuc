@@ -35,7 +35,7 @@ a {
 .font-display {
   font-display: swap;
 }
-.button-container {
+.phone-call {
   display: inline-block;
   padding: 14px 28px;
   background-color: var(--primary-link);
@@ -48,7 +48,7 @@ a {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 3.2rem;
 }
-.button-container:hover {
+.phone-call:hover {
   background-color: var(--primary-brown);
   color: var(--secondary-white);
 }
@@ -155,7 +155,7 @@ a {
   line-height: 2.4rem;
 }
 
-.button-container button {
+.phone-call button {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 3.2rem;
   padding: 0.8rem 1.6rem;
