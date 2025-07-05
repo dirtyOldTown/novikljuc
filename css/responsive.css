@@ -66,6 +66,9 @@
   .tagovi-kartice-content p:last-of-type {
     margin-bottom: 0;
   }
+  .image-blok img {
+    margin-right: 0;
+  }
 
   /* Bravarske usluge */
   .bravarske-usluge-image {
