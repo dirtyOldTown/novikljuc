@@ -12,7 +12,7 @@
   display: flex;
 }
 .header-container li:not(.header-container li:last-of-type) {
-  padding-right: 3.2rem;
+ margin-right: 3.2rem;
 }
 .menu a {
   color: var(--primary-link);
@@ -73,7 +73,7 @@
 }
 .navigation-mobile ul {
   opacity: 0;
-  transition: all 1s;
+  transition: opacity 1s;
 }
 .navigation-mobile a {
   font-family: 'Montserrat-Bold';
