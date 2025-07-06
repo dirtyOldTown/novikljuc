@@ -18,12 +18,13 @@
   color: var(--primary-link);
   font-family: 'Montserrat-Bold';
   font-size: 1.5rem;
+  transition: color 0.4s;
 }
 .menu a:hover {
-  color: var(--header-contact-hover);
+  color:var(--secondary-white)
 }
-#pocetna {
-  color: var(--header-contact-hover);
+#current-page {
+  color: var(--secondary-white);
 }
 .header-contact {
   font-family: 'Montserrat-Regular';
@@ -35,7 +36,7 @@
   color:var(--primary-link);
 }
 .header-contact a:last-of-type:hover {
-  color: var(--header-contact-hover);
+  color: var(--secondary-white);
 }
 
 /* Mobilni */
