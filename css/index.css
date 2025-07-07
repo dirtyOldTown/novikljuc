@@ -108,8 +108,7 @@
   font-size: 1.4rem;
   line-height: 2.4rem;
 }
-
-.phone-call button {
+.phone-call {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 3.2rem;
   padding: 0.8rem 1.6rem;
