@@ -117,8 +117,8 @@
 /*Tabs */
 .tabs-header {
   font-family: 'Oswald-SemiBold';
-  background-color: var(--primary-black);
   background-color: var(--secondary-black);
+  background-color: var(--primary-blue);
   padding: 2.4rem 4rem;
 }
 .tabs-header ul {
@@ -251,11 +251,13 @@
   font-family: 'Oswald-SemiBold';
   text-align: center;
   background-color: var(--secondary-black);
+  background-color: var(--primary-blue);
   color: var(--primary-link);
   padding: 2.4rem;
 }
 .break {
   color: var(--primary-link);
+  color: var(--secondary-white);
 }
 
 /* Bravarske usluge */
