@@ -135,6 +135,9 @@
     width: 100%;
     text-align:center;
   }
+  .intro-content > div, .bravarske-usluge-content > div {
+    text-align: center;
+  }
 
   /* Tabs */
   .tabs-header {
