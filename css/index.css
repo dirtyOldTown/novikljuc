@@ -25,6 +25,9 @@
   margin-top: 0;
   margin-bottom: 4rem;
 }
+.circle {
+  font-size: 1rem;
+}
 .hero-content {
   flex: 2 1 65rem;
   margin-right: 2rem;

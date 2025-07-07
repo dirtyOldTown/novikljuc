@@ -49,7 +49,7 @@ body {
 }
 .main-container h1 > em {
   font-style: normal;
-  color: var(--primary-brown);
+  color: var(--primary-blue);
 }
 .main-content h2 {
   font-family: 'Oswald-SemiBold';
