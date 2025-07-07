@@ -6,6 +6,7 @@
   }
   .hero-section h1 {
     max-width: 70%;
+    margin-right: 0;
   }
   .hero-image {
     margin-top: 4rem;
@@ -199,6 +200,7 @@
   }
   .bravarska-radnja {
     font-size: 1.4rem;
+    text-align: center;
   }
 
   /* Intro */

@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 6.4rem 4rem;
   background-color: var(--hero-bg);
 }
@@ -22,6 +22,8 @@
   font-family: 'Oswald-Bold';
   font-size: 2.7rem;
   color: var(--secondary-black);
+  margin-top: 0;
+  margin-bottom: 4rem;
 }
 .hero-content {
   flex: 2 1 65rem;
