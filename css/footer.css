@@ -107,7 +107,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .footer-main {
+  .footer-main, .footer-right-side p {
     text-align: center;
   }
 }
