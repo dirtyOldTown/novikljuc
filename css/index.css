@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding: 6.4rem 4rem;
   background-color: var(--hero-bg);
 }
@@ -50,6 +50,7 @@
   border-left: 0.4rem solid var(--primary-black);
   padding: 0.8rem 1.6rem;
   color: var(--primary-black);
+  font-weight: bold;
 }
 .hero-list li {
   margin-bottom: 1.6rem;
