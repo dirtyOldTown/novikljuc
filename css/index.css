@@ -92,10 +92,10 @@
   max-height: 32rem;
   width: 100%;
   object-fit: cover;
-  filter:brightness(70%);
+  filter:brightness(80%);
   transition: filter 1s;
-  border-top: 0.5rem solid rgba(0, 0, 0, 0.7);
-  border-bottom: 0.5rem solid rgba(0, 0, 0, 0.7);
+  border-top: 0.5rem solid var(--primary-blue);
+  border-bottom: 0.5rem solid var(--primary-blue);
   clip-path: polygon(4% 0, 100% 0%, 100% 100%, 4% 100%, 0% 50%);
 }
 .intro-image img:hover {
@@ -181,8 +181,6 @@
   max-width: 56rem;
   max-height: 38rem;
   width: 100%;
-  border-left: 0.5rem solid rgba(0, 0, 0, 0.7);
-  border-right: 0.5rem solid rgba(0, 0, 0, 0.7);
   object-fit: cover;
 }
 .tab-content p:last-of-type {

@@ -27,6 +27,9 @@ body {
   filter:saturate(50%);
   transition: filter 1s;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-left: 0.8rem solid var(--primary-blue);
+  border-right: 0.8rem solid var(--primary-blue);
+  border-style: inset;
   transition: filter 0.8s;
 }
 .main-image img:hover {
