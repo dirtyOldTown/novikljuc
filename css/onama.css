@@ -1,5 +1,5 @@
 body {
-  color: var(--primary-black)
+  color: var(--primary-black);
 }
 .main-container {
   display: flex;
@@ -8,8 +8,7 @@ body {
   justify-content: space-between;
   font-family: 'Lora-Medium';
   padding: 6.4rem 4rem;
-  background-color: var(--secondary-white);
-  color: var(--secondary-black)
+  color: var(--secondary-black);
 }
 .main-content {
   flex: 1 1 50rem;
@@ -24,16 +23,13 @@ body {
 .main-image img {
   max-width: 40rem;
   width: 100%;
-  filter:saturate(50%);
+  filter:saturate(80%);
   transition: filter 1s;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-left: 0.8rem solid var(--primary-blue);
   border-right: 0.8rem solid var(--primary-blue);
   border-style: inset;
   transition: filter 0.8s;
-}
-.main-image img:hover {
-  filter:saturate(100%)
 }
 .main-image p {
   max-width: 40rem;
@@ -45,7 +41,7 @@ body {
 .main-container h1 {
   font-family: 'Oswald-Bold';
   margin: 0;
-  margin-bottom: 3.2rem;
+  margin-bottom: 4rem;
   font-size: 4rem;
 }
 .main-container h1 > em {
