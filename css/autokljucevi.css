@@ -99,8 +99,8 @@ h2 {
   animation-duration: 0.8s;
 }
 @keyframes zoom {
-  from { transform: scale(0) }
-  to { transform: scale(1)}
+  from { transform: scaleY(0) }
+  to { transform: scaleY(1)}
 }
 
 /* Responsive */
