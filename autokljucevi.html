@@ -67,23 +67,27 @@
       background-color: var(--primary-blue);
       color: var(--secondary-white);
     }
-      @font-face {
-        font-family: 'Montserrat-Bold';
-        src: url('fonts/Montserrat/Montserrat-SemiBold.woff2') format('woff2'),
-          url('fonts/Montserrat/Montserrat-SemiBold.woff') format('woff');
-        font-weight: 600;
-        font-style: normal;
-        font-display: swap;
-      }
-      @font-face {
-        font-family: 'Montserrat-Regular';
-        src: url('fonts/Montserrat/Montserrat-Regular.woff2') format('woff2'),
-          url('fonts/Montserrat/Montserrat-Regular.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
-      }
-      @font-face {
+   .text-indent {
+    text-indent: 2.4rem;
+   }
+
+   @font-face {
+      font-family: 'Montserrat-Bold';
+      src: url('fonts/Montserrat/Montserrat-SemiBold.woff2') format('woff2'),
+        url('fonts/Montserrat/Montserrat-SemiBold.woff') format('woff');
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Montserrat-Regular';
+      src: url('fonts/Montserrat/Montserrat-Regular.woff2') format('woff2'),
+        url('fonts/Montserrat/Montserrat-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
       font-family: 'Oswald-Bold';
       src: url('fonts/Oswald/Oswald-Bold.woff2') format('woff2'),
         url('fonts/Oswald/Oswald-Bold.woff') format('woff');
@@ -125,7 +129,6 @@
     <nav class="menu">
       <ul>
         <li><a href="index.html">Početna</a></li>
-        <li><a href="onama.html">O Nama</a></li>
         <li><a id="current-page" href="autokljucevi.html">Auto-Ključevi</a></li>
         <li><a href="#">Kontakt</a></li>
       </ul> 
@@ -149,21 +152,67 @@
       </div>
       <ul>
         <li><a href="index.html">Početna</a></li>
-        <li><a id="pocetna-mobile" href="onama.html">O Nama</a></li>
-        <li><a href="#">Auto-Ključevi</a></li>
+        <li><a id="current-page" href="autokljucevi.html">Auto-Ključevi</a></li>
         <li><a href="#">Kontakt</a></li>
       </ul> 
     </nav>
   </header> 
-      <h1>AUTO KLJUČEVI</h1>
-  <main class="main-container">
-    <section class="main-content">
-      <div class="main-text">
-        <div class="main-title">
-          <img src="images/transponder-ključevi-cut.jpg" width="64" alt="">
-          <h2>TRANSPONDER AUTO-KLJUČEVI</h2>
+  <main>
+    <h1>AUTO KLJUČEVI</h1>
+    <section class="main-container">
+      <div class="main-content">
+        <div class="main-header">
+          <img src="images/output-onlinepngtools (1).png" width="64">
+          <h2 class="move-left">TRANSPONDER AUTO-KLJUČEVI</h2>
         </div>
-      </div> 
+        <p  class="text-indent">
+          Transponder ključevi za automobile i  ključevi sa čipom suštinski funkcionišu 
+          po principu logovanja na neku bazu podataka. Ako posedujete lozinku i u ovom 
+          slučaju prijemnik automobila prepoznaje šifru, kola mogu da se startuju, 
+          u suprotnom vam bude onemogućen pristup, tj. pokretanje automobila.
+        </p>
+        <h3>Za izradu transponder ključeva koristimo:</h3>
+        <ul class="content-list">
+          <li>
+            <a href="images/auto-ključevi-RW4-Plus.jpg">Slika programator RW4Plus</a> - 
+             RW4 je vrhunski, prenosivi i jednostavan uređaj za kloniranje, 
+             čitanje i kopiranje širokog spektra transpondera koji se koriste 
+             na ključevima raznih automobila, kao što su ID46, ID48, ID49, 
+             Tekas* 80 bit i T128. Takođe je u mogućnosti da generiše određene 
+             tipove transpondera i sačuva do 99 kodova u memoriji.
+          </li>
+          <li>
+            <a href="images/auto-ključevi-xhorse-key-tool-max-pro-original.jpg">Uređaj Xhorse-key Tool Max Pro</a> -
+            Ovaj uređaj kombinuje funkcije Kei Tool Max i Mini OBD alata i 
+            podržava različite OBD funkcije kao što su dijagnostika vozila,
+            Immo programiranje, program gasa, TPMS i resetovanje svetla za održavanje.
+          </li>
+        </ul>
+        <div class="main-header">
+          <img src="images/standardni-auto-ključevi-mali-format.png" alt="" width="128">
+          <h2>OBIČNI AUTO-KLJUČEVI</h2>
+        </div>
+        <p  class="text-indent">
+          U svakom vremenu postoje ljudi koji se drže starih i isprobanih principa 
+          i pristupa, što može biti uslovljeno materijalnom situacijom, ali ne bezuslovno.
+          Ako pričamo o modernim i relativno skupim automobilima, njihovi proizvođači puno
+          ulažu u njihovu bezbednost - sprečavanjem eventualne krađe, tako da se tu priča 
+          o klasičnim, tj. običnim ključevima za automobile završava.
+        </p>
+        <p>
+          Međutim, i dalje imamo modele automobila kod kojih se njihova bezbednost možda 
+          tretira na drugi način, recimo podrazumeva se da se koristi garaža, pa se bezbednost
+          usmerava na garažni prostor i slično. Ili je to povezano sa „bezbednosnom kulturom“
+          određene države, grada ili lokalne zajednice…
+        </p>
+        <p>
+            Sve u svemu obični auto ključevi  se i dalje proizvode, konzumiraju i kopiraju.
+            Za izradu ovih ključeva najčešće koristimo mašinu: An-San Panther Tr 2050.
+        </p>
+      </div>
+      <div class="main-image">
+        <a href="https://lesa-kljucevi.com/transponder.htm"><img src="images/kola-i-kljucevi.jpg"></a>
+      </div>
     </section>
   </main>
   <footer>
