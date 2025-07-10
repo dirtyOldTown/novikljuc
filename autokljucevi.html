@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/footer.min.css">
     <script src="https://kit.fontawesome.com/68977216dc.js" crossorigin="anonymous" async></script>
     <script src="mobile.js" defer></script>
+    <script src="modal.js" defer></script>
     <style>
       * {
         box-sizing: border-box;
@@ -162,7 +163,7 @@
     <section class="main-container">
       <div class="main-content">
         <div class="main-header">
-          <img src="images/output-onlinepngtools (1).png" width="64">
+          <img class="hide" src="images/output-onlinepngtools (1).png" width="70">
           <h2 class="move-left">TRANSPONDER AUTO-KLJUČEVI</h2>
         </div>
         <p  class="text-indent">
@@ -174,7 +175,13 @@
         <h3>Za izradu transponder ključeva koristimo:</h3>
         <ul class="content-list">
           <li>
-            <a href="images/auto-ključevi-RW4-Plus.jpg">Slika programator RW4Plus</a> - 
+            <div class="zoom" id="modal">
+              <img src="images/auto-ključevi-RW4-Plus.jpg" alt="">
+              <div class="modal-close-button" >
+                <i class="fa-solid fa-circle-xmark fa-2x font-display"></i>
+              </div>
+            </div>
+            <b class="modal-link" data-link-image="images/auto-ključevi-RW4-Plus.jpg">Slika programator RW4Plus</b> - 
              RW4 je vrhunski, prenosivi i jednostavan uređaj za kloniranje, 
              čitanje i kopiranje širokog spektra transpondera koji se koriste 
              na ključevima raznih automobila, kao što su ID46, ID48, ID49, 
@@ -182,14 +189,14 @@
              tipove transpondera i sačuva do 99 kodova u memoriji.
           </li>
           <li>
-            <a href="images/auto-ključevi-xhorse-key-tool-max-pro-original.jpg">Uređaj Xhorse-key Tool Max Pro</a> -
+            <b class="modal-link" data-link-image="images/auto-ključevi-xhorse-key-tool-max-pro.jpg">Uređaj Xhorse-key Tool Max Pro</b> -
             Ovaj uređaj kombinuje funkcije Kei Tool Max i Mini OBD alata i 
             podržava različite OBD funkcije kao što su dijagnostika vozila,
             Immo programiranje, program gasa, TPMS i resetovanje svetla za održavanje.
           </li>
         </ul>
-        <div class="main-header">
-          <img src="images/standardni-auto-ključevi-mali-format.png" alt="" width="128">
+        <div class="main-header classic">
+          <img class="hide" src="images/standardni-auto-ključevi.png" alt="" width="92">
           <h2>OBIČNI AUTO-KLJUČEVI</h2>
         </div>
         <p  class="text-indent">
