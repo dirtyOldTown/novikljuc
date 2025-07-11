@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 6.4rem 4rem;
+  padding: 6.4rem;
   background-color: var(--hero-bg);
 }
 .hero-section h1 {
@@ -64,7 +64,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 6.4rem 4rem;
+  padding: 6.4rem;
   background-color: var(--secondary-white);
 }
 .intro-content {
@@ -120,7 +120,7 @@
   font-family: 'Oswald-SemiBold';
   background-color: var(--secondary-black);
   background-color: var(--primary-blue);
-  padding: 2.4rem 4rem;
+  padding: 2.4rem 6.4rem;
 }
 .tabs-header ul {
   display: flex;
@@ -147,7 +147,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 6.4rem 4rem;
+  padding: 6.4rem;
   font-family: 'Lora-Medium';
   animation: fadeEffect 0.5s;
   color: var(--secondary-black);
@@ -225,7 +225,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 6.4rem 4rem;
+  padding: 6.4rem;
 }
 .tagovi-kartice-content {
  flex: 1 1 40rem;
@@ -241,7 +241,7 @@
 }
 .image-blok img {
   max-width: 20rem;
-  margin-right: 2.4rem;
+  margin-right: 3.2rem;
   border-radius: 0.8rem;
 }
 
@@ -264,7 +264,7 @@
   display: flex;
   flex-wrap: wrap;
   font-family: 'Lora-Medium';
-  padding: 6.4rem 4rem;
+  padding: 6.4rem;
   color: var(--secondary-black);
 }
 .bravarske-usluge h3 {

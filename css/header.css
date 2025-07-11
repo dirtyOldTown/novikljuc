@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 2.4rem 4rem;
+  padding: 2.4rem 6.4rem;
   background-color: var(--primary-black);
   color: var(--primary-link);
 }
@@ -22,7 +22,6 @@
 }
 .menu a:hover {
   color:var(--secondary-white);
-  background-color: var(--secondary-white);
 }
 #current-page {
   color: var(--secondary-white);

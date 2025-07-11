@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: first baseline;
-  padding: 6.4rem 4rem;
+  padding: 6.4rem;
   font-family: 'Lora-Regular';
   font-size: 1.4rem;
   background-color: var(--primary-black);
