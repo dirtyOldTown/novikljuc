@@ -93,12 +93,3 @@
   opacity: 1;
 }
 
-/* Responsive */
-@media screen and (max-width: 992px) {
-  .header-container {
-    display: none;
-  }
-  .header-mobile {
-    display: block;
-  }
-}
