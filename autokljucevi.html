@@ -71,9 +71,20 @@
     }
    .text-indent {
     text-indent: 2.4rem;
-   }
+    }
+   
+    /* Responsive */
+    @media screen and (max-width: 992px) {
+      .header-container {
+        display: none;
+      }
+      .header-mobile {
+        display: block;
+      }
+    }
 
-   @font-face {
+    /* Font-Face*/
+    @font-face {
       font-family: 'Montserrat-Bold';
       src: url('fonts/Montserrat/Montserrat-SemiBold.woff2') format('woff2'),
         url('fonts/Montserrat/Montserrat-SemiBold.woff') format('woff');
@@ -132,7 +143,7 @@
       <ul>
         <li><a href="index.html">Početna</a></li>
         <li><a id="current-page" href="autokljucevi.html">Auto-Ključevi</a></li>
-        <li><a href="#">Kontakt</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
       </ul> 
     </nav>
     <div class="header-contact">
@@ -155,7 +166,7 @@
       <ul>
         <li><a href="index.html">Početna</a></li>
         <li><a id="current-page" href="autokljucevi.html">Auto-Ključevi</a></li>
-        <li><a href="#">Kontakt</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
       </ul> 
     </nav>
   </header> 
