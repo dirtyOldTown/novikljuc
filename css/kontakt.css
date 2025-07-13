@@ -81,7 +81,8 @@ h2 {
 }
 .text ul li:first-child {
   margin-bottom: 2.4rem;
-  color: var(--primary-link)
+  color: var(--primary-link);
+  text-align: center;
 }
 
 /* Responsive */
