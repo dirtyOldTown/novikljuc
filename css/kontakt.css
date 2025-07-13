@@ -54,9 +54,6 @@ h2 {
   flex-wrap: wrap;
   margin-top: 4rem;
 }
-.mapa {
-  margin-left: 2.4rem;
-}
 .mapa img {
   max-width: 50rem;
   width: 100%;
@@ -74,7 +71,6 @@ h2 {
   color: var(--secondary-white);
   padding: 2.4rem;
   border-radius: 0.8rem;
-
 }
 .text li {
   margin-bottom: 0.8rem;
@@ -86,9 +82,9 @@ h2 {
 }
 
 /* Responsive */
-@media screen and (max-width: 1116px) {
+@media screen and (max-width: 1117px) {
   .mapa-text {
-   justify-content: center;
+    justify-content: center;
   }
   .mapa {
     margin-left: 0;
