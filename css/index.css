@@ -90,7 +90,7 @@
 }
 .intro-image img {
   max-width: 56rem;
-  max-height: 32rem;
+  max-height: 38rem;
   width: 100%;
   object-fit: cover;
   filter:brightness(80%);
