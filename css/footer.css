@@ -48,7 +48,7 @@
  border: 1px solid var(--border-line);
 }
 .footer-end {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Oswald-SemiBold';
   font-size: 1.4rem;
   display: flex;
   justify-content: center;
