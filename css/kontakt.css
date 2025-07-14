@@ -1,7 +1,5 @@
 body {
   font-family: 'Lora-Regular';
-  font-size: 1.8rem;
-  font-weight: 600;
   background-color: var(--secondary-white);
   color: var(--primary-black)
 }
@@ -18,6 +16,8 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 .contact-container article {
   margin-right: 4rem;
