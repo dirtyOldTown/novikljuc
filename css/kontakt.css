@@ -34,7 +34,7 @@ h2 {
 .fa-color {
   color: var(--primary-blue);
 }
-.fa-color.fa-call:hover {
+.fa-color:hover {
   color: var(--primary-link)
 }
 .contact-container a {
