@@ -1,10 +1,8 @@
-body {
-  font-family: 'Lora-Regular';
-  background-color: var(--secondary-white);
-  color: var(--primary-black)
-}
 main {
   padding: 6.4rem;
+  font-family: 'Lora-Regular';
+  color: var(--primary-black);
+  background-color: var(--secondary-white);
 }
 h2 {
   font-family: 'Oswald-Bold';
