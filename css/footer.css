@@ -4,6 +4,7 @@
   align-items: first baseline;
   padding: 6.4rem;
   font-family: 'Lora-Regular';
+  font-weight: 200;
   font-size: 1.4rem;
   background-color: var(--primary-black);
   color: var(--footer-color);
@@ -47,7 +48,7 @@
  border: 1px solid var(--border-line);
 }
 .footer-end {
-  font-family: 'Oswald-SemiBold';
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.4rem;
   display: flex;
   justify-content: center;

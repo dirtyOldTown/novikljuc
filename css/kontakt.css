@@ -59,7 +59,7 @@ h2 {
   width: 100%;
   cursor: pointer;
   border-radius: 0.8rem;
-  border: 0.2rem solid silver;
+  border: 0.1rem solid silver;
   transition: filter 0.8s;
 }
 .text {
