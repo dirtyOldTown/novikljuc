@@ -5,7 +5,7 @@
   padding: 6.4rem;
   font-family: 'Lora-Regular';
   font-size: 1.4rem;
-  background-color: var(--primary-black);
+  background-color: var(--footer-bg);
   color: var(--footer-color);
 }
 .footer-main h4 {
@@ -53,14 +53,14 @@
   justify-content: center;
   align-items: center;
   padding: 1.6rem 0;
-  color: var(--footer-color);
-  background-color: var(--primary-black);
+  color: var(--footer-end-color);
+  background-color: var(--footer-end-bg);
 }
 .footer-end a {
-  color: var(--footer-color);
+  color: var(--footer-end-color);
 }
 .footer-end a:hover {
-  text-decoration: underline;
+  color: #bec6d2;
 }
 
 @media screen and (max-width: 992px) {
