@@ -293,7 +293,6 @@
   margin: 0;
   padding: 8rem 6.4rem;
   background-color: var(--dark-blue);
-  border-bottom: 0.4rem double var(--footer-color);
 }
 .testemonials-container {
   display: flex;
@@ -320,9 +319,11 @@
   padding: 3.2rem 1.6rem;
   padding-bottom: 2.4rem;
 }
+/*
 .testemonial-text {
   min-height: 10.4rem;
 }
+  */
 .quote {
   position: absolute;
   font-size: 3.2rem;
