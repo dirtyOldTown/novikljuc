@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 2.4rem 6.4rem;
-  background-color: var(--primary-black);
+  background-color: var(--primary-brown);
   color: var(--primary-link);
 }
 .header-container ul {
@@ -21,10 +21,7 @@
   transition: color 0.4s;
 }
 .menu a:hover {
-  color:var(--secondary-white);
-}
-#current-page {
-  color: var(--secondary-white);
+  color:var(--secondary-link);
 }
 .header-contact {
   font-family: 'Montserrat-Regular';
@@ -32,11 +29,11 @@
   font-size: 1.4rem;
 }
 .header-contact a:last-of-type {
-  font-family: 'Montserrat-Regular';
+  font-family: 'Montserrat-Bold';
   color:var(--primary-link);
 }
 .header-contact a:last-of-type:hover {
-  color: var(--secondary-white);
+  color: var(--secondary-link);
 }
 
 /* Mobilni */

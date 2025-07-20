@@ -78,6 +78,11 @@
   .bravarske-usluge h3 {
     text-align: center;
   }
+
+  /* Testemonials */
+  .testemonials-container {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -93,7 +98,12 @@
   /* Tabs */
   .tabs-header ul {
   justify-content: center;
-}
+  }
+
+    /* Testemonials */
+  .testemonials-container {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {

@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <script src="index.js" defer></script>
     <script src="mobile.js" defer></script>
+    <script src="testemonials.js" defer></script>
     <style>
       * {
         box-sizing: border-box;
@@ -27,16 +28,22 @@
         font-size: 62.5%;
       }
     :root {
-      --primary-black: #161515;
+      --primary-black: #161c24;
       --secondary-black: #2c2e2d;
+      --primary-brown: #151300;
+      --secondary-brown: #2A2600;
       --hero-bg: #D2C001;
       --primary-blue: #2f4858;
-      --primary-link: #e1bc5c;
+      --dark-blue: #222831;
+      --primary-link: #fff9c2;
+      --secondary-link: #ffef58;
       --secondary-white: #E9EBEA;
-      --footer-color: #bbd4c8;
-      --white: #ffffff;
-      --border-line: #444;
+      --footer-color: #d4f1ed;
+      --border-line: #393E46;
       --header-contact-hover: #ffece4;
+      --button-bg: #2F5C66 ;
+      --button-color: #f1f7f9;
+      --highlight: #FFD369;
     }
     body {
       margin: 0;
@@ -56,20 +63,18 @@
     }
     .phone-call {
       display: inline-block;
-      padding: 14px 28px;
-      background-color: var(--primary-link);
-      color: var(--secondary-black);
+      padding: 16px 32px;
+      background-color: var(--primary-blue);
+      color: #fff;
       border-radius: 50px;
       font-size: 1.5rem;
       cursor: pointer;
-      border: 0.1rem solid var(--primary-blue);
       font-family: 'Oswald-SemiBold';
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       margin-top: 3.2rem;
     }
     .phone-call:hover {
-      background-color: var(--primary-blue);
-      color: var(--secondary-white);
+      color: var(--highlight);
     }
 
     /* Responsive */
@@ -368,9 +373,11 @@
       </p>
     </div>
   </section>
+  <!--
   <div class="break">
     Na vaš poziv izlazimo na teren i radimo hitne intervencije&nbsp;!
   </div>
+  -->
   <section class="bravarske-usluge">
     <div class="bravarske-usluge-content">
       <h3>IZLAZAK NA TEREN - BRAVARSKE USLUGE</h3>
@@ -392,7 +399,24 @@
     </div>
   </section>
   <figure class="testemonials">
-
+    <div class="testemonials-container">
+      <div class="progres-bar"></div>
+      <blockquote>
+        <div class="quote-left quote"><i class="fa-solid fa-quote-right"></i></div>
+        <div class="testemonial-text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+         </div>
+        <div class="quote-right quote"><i class="fa-solid fa-quote-left"></i></div>
+      </blockquote>
+      <div class="testemonial-image">
+        <img src="images/10491830.jpg">
+        <ul class="testemonial-image-text">
+          <li class="name">Boba Vučenović</li>
+          <li class="role">Vlasnik ključarske radnje</li>
+        </ul>
+      </div>
+    </div>
   </figure>
   <footer>
     <div class="footer-main">
