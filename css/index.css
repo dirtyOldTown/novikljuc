@@ -293,7 +293,7 @@
   margin: 0;
   padding: 8rem 6.4rem;
   background-color: var(--dark-blue);
-  border-bottom: 0.4rem double #393E46;
+  border-bottom: 0.4rem double var(--footer-color);
 }
 .testemonials-container {
   display: flex;
@@ -306,12 +306,12 @@
   background-color:  #393E46;
   line-height: 1.7;
 }
-.progres-bar {
+.progress-bar {
   height: 0.4rem;
   background-color: var(--highlight);
   animation: grow 10s linear infinite;
   transform-origin: left;
-  margin: 0.8rem 5.6rem;
+  margin: 0.8rem 5.4rem;
   margin-bottom: -2.4rem;
 }
 .testemonials-container blockquote {
