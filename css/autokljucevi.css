@@ -90,7 +90,7 @@ h2 {
   cursor: pointer;
 }
 .modal-link:hover {
-  color: var(--primary-blue);
+  color: blue;
 }
 .zoom {
   animation-name: zoom;

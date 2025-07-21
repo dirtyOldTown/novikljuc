@@ -35,13 +35,7 @@ h2 {
   color: var(--primary-blue);
 }
 .fa-color:hover {
-  color: var(--primary-link)
-}
-.contact-container a {
-  color: var(--primary-black);
-}
-.contact-container a:hover {
-  color: var(--secondary-blue);
+  color: var(--orange);
 }
 
 /* Mapa / Text*/
@@ -75,10 +69,7 @@ h2 {
 }
 .text ul li:first-child {
   margin-bottom: 2.4rem;
-  color: var(--highlight);
   text-align: center;
-}
-#naslov {
   font-family: 'Oswald-SemiBold';
   font-size: 2rem;
 }
