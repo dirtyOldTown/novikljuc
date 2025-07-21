@@ -21,7 +21,8 @@
   transition: color 0.4s;
 }
 #current-page {
-  border-bottom: 0.2rem solid var(--primary-link);
+  border-bottom: 0.4rem solid var(--primary-link);
+  padding-bottom: 0.2rem;
 }
 .header-contact {
   font-family: 'Montserrat-Regular';
@@ -29,8 +30,13 @@
   font-size: 1.4rem;
 }
 .header-contact a:last-of-type {
-  font-family: 'Montserrat-Regular';
+  font-family: 'Montserrat-Bold';
   color: var(--primary-link);
+  color: #e49d40;
+  opacity: 0.96;
+}
+.header-contact a:last-of-type:hover {
+  opacity: 1;
 }
 
 
