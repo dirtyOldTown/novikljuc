@@ -21,7 +21,7 @@
   transition: color 0.4s;
 }
 #current-page {
-  border-bottom: 0.4rem solid var(--primary-link);
+  border-bottom: 0.3rem solid var(--primary-link);
   padding-bottom: 0.2rem;
 }
 .header-contact {
@@ -103,3 +103,4 @@
     display: block;
   }
 }
+
