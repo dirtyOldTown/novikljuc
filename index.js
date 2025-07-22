@@ -30,6 +30,5 @@ document.addEventListener("click", tabsHandler);
   tabLinks[0].classList.add("active");
 
 
-// Testimonials
 
 
