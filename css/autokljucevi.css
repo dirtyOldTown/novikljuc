@@ -95,10 +95,11 @@ h2 {
 .zoom {
   animation-name: zoom;
   animation-duration: 0.8s;
+  transform-origin: left ;
 }
 @keyframes zoom {
-  from { transform: scaleY(0) }
-  to { transform: scaleY(1)}
+  from { transform: scaleX(0) }
+  to { transform: scaleX(1)}
 }
 
 /* Responsive */
