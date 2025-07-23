@@ -162,6 +162,9 @@
     font-size: 2.3rem;
     margin-bottom: 2.4rem;
   }
+  .tab-content-image img {
+    height: auto;
+}
 
   /* Tagovi - Kartice*/
   .tagovi-kartice {

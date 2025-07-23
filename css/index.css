@@ -182,6 +182,10 @@
   max-height: 38rem;
   width: 100%;
   object-fit: cover;
+  overflow: hidden;
+}
+.tab-content-image img:hover {
+  object-fit: contain;
 }
 .tab-content p:last-of-type {
   margin-bottom: 0;
