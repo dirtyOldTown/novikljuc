@@ -4,7 +4,7 @@ const testemonials = [
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     `,
     name: "Milorad Stokić",
-    image: 'images/20250429_203227.jpg',
+    image: 'images/20250429_203510.jpg',
     role: "Mašinbravar"
   },
    {

@@ -95,7 +95,6 @@
   object-fit: cover;
   filter:brightness(80%);
   transition: filter 1s;
-
   clip-path: polygon(4% 0, 100% 0%, 100% 100%, 4% 100%, 0% 50%);
 }
 .intro-image img:hover {
