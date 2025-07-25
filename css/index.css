@@ -382,6 +382,9 @@
   .slideshow li:nth-child(3) {
     left: 200%;
   }
+  .slide2 img {
+    object-position: 50% 80%;
+  }
   .arrow {
     position: absolute;
     z-index: 1000;
