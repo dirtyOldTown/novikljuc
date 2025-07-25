@@ -94,6 +94,14 @@
   .bravarska-radnja {
     font-size: 2.4rem;
   }
+  
+  /* Intro */
+  .intro {
+    align-items: center;
+  }
+  .intro-content > div, .bravarske-usluge-content > div {
+    text-align: center;
+  }
 
   /* Tabs */
   .tabs-header ul {
@@ -127,9 +135,6 @@
   }
 
   /* Intro */
-  .intro {
-    align-items: center;
-  }
   .intro-content h2 {
     text-align: center;
     font-size: 2.3rem;
@@ -144,9 +149,6 @@
   .image-text {
     width: 100%;
     text-align:center;
-  }
-  .intro-content > div, .bravarske-usluge-content > div {
-    text-align: center;
   }
 
   /* Tabs */
