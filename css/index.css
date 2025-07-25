@@ -391,7 +391,9 @@
     background-color: rgba(192, 192, 192, 0.7);
     padding: 0.4rem 0.8rem;
     cursor: pointer;
-    top: 40%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
   .arrow:hover {
     background-color: rgba(192, 192, 192, 1);
