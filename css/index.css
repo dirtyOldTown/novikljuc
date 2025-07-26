@@ -93,7 +93,7 @@
   max-height: 36rem;
   width: 100%;
   object-fit: cover;
-  border-radius: 0.4rem;
+  border-radius: 0.8rem;
   border: 0.4rem solid rgb(192, 192, 192);
 }
 .image-text {
