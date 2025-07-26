@@ -54,6 +54,9 @@ h2 {
 .move-left {
   margin-left: 2.4rem;
 }
+.text-indent {
+  text-indent: 2.4rem;
+}
 
 /* ModalImage */
 #modal {
@@ -153,6 +156,9 @@ h2 {
   }
   .move-left {
     margin-left: 0;
+  }
+  .text-indent {
+    text-indent: 0;
   }
 }
 
