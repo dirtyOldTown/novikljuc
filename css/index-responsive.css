@@ -19,20 +19,20 @@
   /* Intro */
   .intro {
    flex-direction: column;
-   align-items: flex-start;
+   align-items: center;
   }
   .intro-content {
     margin-right: 0;
   }
   .intro-image {
      flex-basis: 100%;
-     margin-top: 3.2rem;
+     margin-top: 6.4rem;
   }
 
   /* Tabs */
   .tab-content {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   .tab-content-text {
     margin-right: 0;
@@ -44,6 +44,11 @@
   .details {
     max-width: 56rem;
   }
+
+  /* Bravarske usluge */
+  .bravarske-usluge-image {
+    margin-top: 6.4rem;
+}
 }
 
 @media screen and (max-width: 992px) {
@@ -72,9 +77,6 @@
   }
 
   /* Bravarske usluge */
-  .bravarske-usluge-image {
-    margin-top: 3.2rem;
-  }
   .bravarske-usluge h3 {
     text-align: center;
   }
@@ -82,6 +84,11 @@
   /* Testemonials */
   .testemonials-container {
     width: 70%;
+  }
+}
+@media screen and (max-width: 845px) {
+  .tab-content-image {
+    margin-top: 6.4rem;
   }
 }
 
@@ -93,14 +100,6 @@
   }
   .bravarska-radnja {
     font-size: 2.4rem;
-  }
-  
-  /* Intro */
-  .intro {
-    align-items: center;
-  }
-  .intro-content > div, .bravarske-usluge-content > div {
-    text-align: center;
   }
 
   /* Tabs */
@@ -119,6 +118,9 @@
     font-size: 1.6rem;
   }
   .button-container {
+    text-align: center;
+  }
+  .intro-content > div, .bravarske-usluge-content > div {
     text-align: center;
   }
 
