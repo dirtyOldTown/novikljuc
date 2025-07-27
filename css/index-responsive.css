@@ -4,12 +4,15 @@
   .hero-content {
     margin-right: 0;
   }
+    .hero-section {
+    justify-content: center;
+  }
   .hero-section h1 {
     max-width: 70%;
     margin-right: 0;
   }
   .hero-image {
-    margin-top: 4rem;
+    margin-top: 6.4rem;
   }
   .image-text {
     text-align: center;
@@ -239,9 +242,6 @@
 @media screen and (max-width:420px) {
   body {
     font-size: 1.5rem;
-  }
-  .hero-section {
-    justify-content: center;
   }
   .hero-section h1 {
      align-self: flex-start;
