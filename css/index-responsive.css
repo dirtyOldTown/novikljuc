@@ -127,8 +127,8 @@
     text-align: center;
   }
 
-  /* Hero Section */
-  /* .hero-section h1 {
+ /* Hero Section */
+  .hero-section h1 {
     font-size: 3.3rem;
     line-height: 4.4rem;
   }
@@ -137,7 +137,7 @@
   }
   .hero-list {
     font-size: 1.5rem;
-  } */
+  }
 
   /* Intro */
   .intro-content h2 {
@@ -218,7 +218,7 @@
 
 @media screen and (max-width: 536px) {
   /* Hero Section */
-  /* .hero-section {
+  .hero-section {
     padding: 4rem 3.2rem;
     padding-bottom: 4.8rem;
   }
@@ -237,17 +237,17 @@
   }
   .hero-image img {
     max-width: 20rem;
-  } */
+  }
 }
 
 @media screen and (max-width:420px) {
- /*  body {
+  body {
     font-size: 1.5rem;
   }
   .hero-section h1 {
      align-self: flex-start;
   }
- */
+
   /* Tabs */
   .details p {
     margin-top: 3.2rem;
