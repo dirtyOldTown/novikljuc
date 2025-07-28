@@ -12,7 +12,7 @@
   height: 80vh;
   background: url("../images/car-keys.jpg");
   background-size: cover;
-  background-position: 0 22%;
+  background-position: 70% 22%;
   filter:brightness(70%);
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
  }
@@ -128,7 +128,7 @@ h2 {
 /* Responsive */
 @media screen and (max-width: 768px) {
   .hero-section {
-    background-position: 50% 50%;
+    background-position: 70% 50%;
   }
   #modal img {
     max-width: 40rem;
