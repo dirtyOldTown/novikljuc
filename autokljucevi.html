@@ -7,6 +7,7 @@
   <meta name="description" content="Izrađujemo ili kopiramo obične i 
     transponder auto ključeve sa programiranjem čipa. Izlazimo na teren u slučaju izgubljenih ključeva i dr.">
   <meta name="author" content="Aleksandar Pejinović">
+  <link rel="preload" as="image" href="images/car-keys.jpg" crossorigin>
   <link rel="preload" as="font" type="font/woff2" href="fonts/Oswald/Oswald-Bold.woff2" crossorigin>
   <link rel="preload" as="font" type="font/woff2" href="fonts/Lora/Lora-Regular.woff2" crossorigin>
   <link rel="preload" as="font" type="font/woff2" href="fonts/Montserrat/Montserrat-SemiBold.woff2" crossorigin>
@@ -16,6 +17,7 @@
   <link rel="stylesheet" href="css/footer.css">
   <script src="mobile.js" defer></script>
   <script src="modal.js" defer></script>
+  <script src="auto.js" defer></script>
   <style>
     * {
       box-sizing: border-box;
@@ -63,25 +65,20 @@
     .phone-call, .detail {
       display: inline-block;
       padding: 14px 28px;
-      background-color: var(--primary-blue);
-      color: #fff;
+      background-color: #feba3e;
+      color: #222;
       border-radius: 50px;
-      font-size: 1.7rem;
+      font-size: 1.6rem;
       cursor: pointer;
       border: 0.1rem solid var(--primary-blue);
       font-family: 'Oswald-SemiBold';
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      margin-top: 3.2rem;
+      margin-top: 6.4rem;
     }
     .detail {
       background-color: var(--primary-link);
-      color: var(--primary-black)
     }
-    .phone-call:hover {
-      background-color: var(--primary-link);
-      color: var(--primary-black);
-    }
-   
+
     /* Responsive */
     @media screen and (max-width: 992px) {
       .header-container {
@@ -186,14 +183,14 @@
         <a  class="phone-call" href="tel:+381601585522"><i class="fa-solid fa-phone-volume"></i> &nbsp;Pozovite nas</a>
       </div>
       <div>
-        <a  class="detail"> &nbsp;Pročitajte više...</a>
+        <a  class="detail">Informišite se &nbsp; <i class="fa fas fa-long-arrow-alt-down"></i></a>
       </div>
       </div>
   </section>
   <main>
     <section class="main-container">
       <div class="main-content">
-        <div class="main-header">
+        <div class="main-header" id="main-header">
           <img class="hide" src="images/car-rental.png" alt="" width="48">
           <h2 class="move-left">TRANSPONDER AUTO-KLJUČEVI</h2>
         </div>

@@ -94,6 +94,11 @@
   width: 100%;
   object-fit: cover;
   border-radius: 0.8rem;
+  filter: brightness(80%);
+  transition: filter 1s;
+}
+.intro-image img:hover {
+  filter: brightness(95%)
 }
 .image-text {
   padding-left: 0.8rem;
@@ -101,11 +106,6 @@
   margin-top: 1.6rem;
   font-size: 1.4rem;
   line-height: 2.4rem;
-}
-.phone-call {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin-top: 3.2rem;
-  padding: 0.8rem 1.6rem;
 }
 
 /*Tabs */
