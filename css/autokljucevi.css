@@ -26,7 +26,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 80vh;
-  background: url("../images/car-keys.jpg");
+  background-image: url("../images/car-keys.jpg");
   background-size: cover;
   background-position: 70% 22%;
   filter:brightness(70%);
