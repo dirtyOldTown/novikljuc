@@ -127,6 +127,18 @@
     text-align: center;
   }
 
+  /* Hero Section */
+  .hero-section h1 {
+    font-size: 3.3rem;
+    line-height: 4.4rem;
+  }
+  .bravarska-radnja {
+    font-size: 2rem;
+  }
+  .hero-list {
+    font-size: 1.5rem;
+  }
+
   /* Intro */
   .intro-content h2 {
     text-align: center;
@@ -204,7 +216,36 @@
   }
 }
 
+@media screen and (max-width: 536px) {
+  /* Hero Section */
+  .hero-section {
+    padding: 4rem 3.2rem;
+    padding-bottom: 4.8rem;
+  }
+  .hero-section h1 {
+    font-size: 2.7rem;
+    line-height: 3.7rem;
+  }
+  .bravarska-radnja {
+    font-size: 1.7rem;
+  }
+  .hero-list {
+    font-size: 1.5rem;
+  }
+  .hero-image {
+    flex: 0 1 20rem;
+  }
+  .hero-image img {
+    max-width: 20rem;
+  }
+}
 @media screen and (max-width:420px) {
+  body {
+    font-size: 1.5rem;
+  }
+  .hero-section h1 {
+    align-self: flex-start;
+  }
   /* Tabs */
   .details p {
     margin-top: 3.2rem;
