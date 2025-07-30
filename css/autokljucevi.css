@@ -55,12 +55,16 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.4rem;
 }
+
 h2 {
   font-size: 2.8rem;
   font-family: 'Oswald-SemiBold';
   margin: 0;
+}
+.main-header.classic {
+  margin-top: 2.4rem;
 }
 .main-content h3 {
   font-family: 'Oswald-SemiBold';
@@ -71,7 +75,7 @@ h2 {
   list-style-type:disc;
   padding: 1.6rem;
   padding-bottom: 0;
-  margin-bottom: 3.2rem;
+  margin-bottom: 0;
   margin-left: 1.6rem;
 }
 .main-content li {
@@ -152,7 +156,7 @@ h2 {
     height: auto;
   }
   .main-container {
-    padding: 4rem;
+    padding: 6.4rem 4rem;
   }
   .main-content ul {
     list-style-type: none;
@@ -186,7 +190,7 @@ h2 {
     margin-top: 2.4rem;
   }
   .main-container {
-    padding: 4rem 2.4rem;
+    padding: 6.4rem 2.4rem;
   }
   h2 {
     font-size: 2.3rem;
@@ -230,8 +234,5 @@ h2 {
   }
   h2 {
     font-size: 2rem;
-  }
-  .main-container {
-    padding-top: 2.4rem;
   }
 }
