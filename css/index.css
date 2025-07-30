@@ -223,6 +223,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 6.4rem;
+  border-top: 0.1rem solid #e6fdbc;
+  border-bottom: 0.1rem solid #e6fdbc;
 }
 .tagovi-kartice-content {
  flex: 1 1 40rem;
@@ -240,20 +242,6 @@
   max-width: 20rem;
   margin-right: 3.2rem;
   border-radius: 0.8rem;
-}
-
-/* Break */
-.break {
-  font-family: 'Oswald-SemiBold';
-  text-align: center;
-  background-color: var(--secondary-black);
-  background-color: var(--primary-blue);
-  color: var(--primary-link);
-  padding: 2.4rem;
-}
-.break {
-  color: var(--primary-link);
-  color: var(--secondary-white);
 }
 
 /* Bravarske usluge */
