@@ -23,7 +23,6 @@
         loadImages(images, 0, (images) => {
             // Your slideshow code goes here. This is just example code
             // of adding the images to your document once they are all loaded
-            setInterval(updateTestemonials, 10000);
             images.forEach((item) => {
                document.querySelector('body').appendChild(item);
             });
@@ -82,7 +81,7 @@ function updateTestemonials() {
   }
 }
 
-
+     setInterval(updateTestemonials, 10000);
 
   
 
