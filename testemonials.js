@@ -25,6 +25,25 @@ const testemonials = [
   }
 ];
 
+// Preload images 
+const sources = [
+  'images/20250429_203510.jpg',
+  'images/20250429_202636.jpg',
+  'images/avatar1.jpg'
+];
+
+let images = [];
+
+function preload() {
+  for (let i = 0; i < arguments.length; i++) {
+    images[i] = new Image();
+    images.src = preload.arguments[i];
+  }
+}
+
+preload(...sources);
+
+// Testemonials execute
 let idx = 0;
 const testemonialText = document.querySelector(".testemonial-text");
 const testemonialName = document.querySelector(".name");
