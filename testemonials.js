@@ -50,5 +50,5 @@ setTimeout(() => {
   setInterval(() => {
   updateTestemonials(testemonials)
 }, 10000)
-}, 2000);
+});
 
