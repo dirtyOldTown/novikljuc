@@ -37,10 +37,10 @@ function updateTestemonials() {
   const {text, name, image, role} = testemonials[idx];
 
   // Change testemonial content
+  testemonialImage.src = image;
   testemonialText.innerHTML = text;
   testemonialName.innerHTML = name;
   testemonialRole.innerHTML = role;
-  testemonialImage.src = image;
 
   idx++;
   
