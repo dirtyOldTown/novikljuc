@@ -66,5 +66,7 @@ function updateTestemonials(testemonials) {
 
 setInterval(() => {
   updateTestemonials(testemonials)
-}, 10100)
+}, 10000)
+
+  
 
