@@ -63,7 +63,6 @@ function updateTestemonials(testemonials) {
   testemonialRole.innerHTML = role;
   testemonialImage.src = image;
 }
-progressBar.style.animation = "grow 10s linear infinite";
 
 setInterval(() => {
   updateTestemonials(testemonials)
