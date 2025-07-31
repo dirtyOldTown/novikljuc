@@ -81,7 +81,7 @@ function updateTestemonials() {
   }
 }
 
-     setInterval(updateTestemonials, 10000);
+setInterval(updateTestemonials, 10000);
 
   
 
