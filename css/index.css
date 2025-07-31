@@ -294,7 +294,6 @@
 .progress-bar {
   height: 0.4rem;
   background-color: var(--highlight);
-  animation: grow 10s linear infinite;
   transform-origin: left;
   margin: 0.8rem 5.4rem;
   margin-bottom: -2.4rem;

@@ -30,6 +30,7 @@ const testemonialText = document.querySelector(".testemonial-text");
 const testemonialName = document.querySelector(".name");
 const testemonialRole = document.querySelector(".role");
 const testemonialImage = document.querySelector(".testemonial-image img");
+const progressBar = document.querySelector(".progress-bar");
 
 function updateTestemonials(testemonials) {
   const {text, name, image, role} = testemonials[idx];
@@ -43,6 +44,8 @@ function updateTestemonials(testemonials) {
   testemonialRole.innerHTML = role;
   testemonialImage.src = image;
 }
+
+progressBar.style.animation = "grow 10s linear infinite";
 
 setInterval(() => {
   updateTestemonials(testemonials)
