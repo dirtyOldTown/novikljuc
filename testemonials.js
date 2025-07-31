@@ -51,7 +51,7 @@ const testemonialRole = document.querySelector(".role");
 const testemonialImage = document.querySelector(".testemonial-image img");
 const progressBar = document.querySelector(".progress-bar");
 
-function updateTestemonials(testemonials) {
+function updateTestemonials() {
   const {text, name, image, role} = testemonials[idx];
     idx++;
   if (idx > testemonials.length - 1) {
@@ -64,9 +64,7 @@ function updateTestemonials(testemonials) {
   testemonialImage.src = image;
 }
 
-setInterval(() => {
-  updateTestemonials(testemonials)
-}, 10000)
+setInterval(updateTestemonials, 10000);
 
   
 
