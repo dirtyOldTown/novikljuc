@@ -6,7 +6,7 @@
     ];
 
     // Loads the images one at a time, then calls the callback function when all images
-    // have been loaded
+    // have been loaded.
     function loadImages(images, index, callback) {
         if (index < images.length) {
             let img = new Image();
