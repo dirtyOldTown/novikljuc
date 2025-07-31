@@ -144,6 +144,7 @@
   font-family: 'Lora-Medium';
   animation: fadeEffect 0.5s;
   color: var(--secondary-black);
+  background-color: var(--secondary-white);
 }
 @keyframes fadeEffect {
   from {opacity: 0}
@@ -218,13 +219,12 @@
 /* Tagovi - Kartice*/
 .tagovi-kartice {
   background-color: var(--secondary-white);
+  background-color: #f3ebff;
   color: var(--secondary-black);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 6.4rem;
-  border-top: 0.1rem solid #e6fdbc;
-  border-bottom: 0.1rem solid #e6fdbc;
 }
 .tagovi-kartice-content {
  flex: 1 1 40rem;
@@ -251,6 +251,7 @@
   font-family: 'Lora-Medium';
   padding: 6.4rem;
   color: var(--secondary-black);
+  background-color: var(--secondary-white);
 }
 .bravarske-usluge h3 {
   font-family: 'Oswald-SemiBold';

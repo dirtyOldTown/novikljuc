@@ -6,7 +6,7 @@ main {
 }
 h2 {
   font-family: 'Oswald-Bold';
-  color: var(--dark-blue);
+  color: var(--primary-blue);
   font-size: 3.3rem;
   margin: 0;
 }
@@ -32,7 +32,7 @@ h2 {
   line-height: 3.2rem;
 }
 .fa-color {
-  color: var(--dark-blue);
+  color: var(--primary-blue);
 }
 .fa-color:hover {
   color: var(--orange);
@@ -51,7 +51,7 @@ h2 {
   width: 100%;
   cursor: pointer;
   border-radius: 0.8rem;
-  border: 0.1rem solid var(--dark-blue);
+  border: 0.1rem solid var(--primary-blue);
   transition: filter 0.8s;
 }
 .text {
@@ -59,7 +59,7 @@ h2 {
   flex: 0 1 46rem;
   font-size: 1.6rem;
   font-weight: normal;
-  background-color: var(--dark-blue);
+  background-color: var(--primary-blue);
   color: var(--secondary-white);
   padding: 2.4rem;
   border-radius: 0.8rem;
