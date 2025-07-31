@@ -25,24 +25,6 @@ const testemonials = [
   }
 ];
 
-// Preload images 
-const sources = [
-  'images/20250429_203510.jpg',
-  'images/20250429_202636.jpg',
-  'images/avatar1.jpg'
-];
-
-let images = [];
-
-function preload() {
-  for (let i = 0; i < arguments.length; i++) {
-    images[i] = new Image();
-    images.src = preload.arguments[i];
-  }
-}
-
-preload(...sources);
-
 // Testemonials execute
 let idx = 0;
 const testemonialText = document.querySelector(".testemonial-text");
@@ -53,15 +35,18 @@ const progressBar = document.querySelector(".progress-bar");
 
 function updateTestemonials() {
   const {text, name, image, role} = testemonials[idx];
-    idx++;
-  if (idx > testemonials.length - 1) {
-    idx = 0;
-  }
+
   // Change testemonial content
   testemonialText.innerHTML = text;
   testemonialName.innerHTML = name;
   testemonialRole.innerHTML = role;
   testemonialImage.src = image;
+
+  idx++;
+  
+  if (idx > testemonials.length - 1) {
+    idx = 0;
+  }
 }
 
 setInterval(updateTestemonials, 10000);
