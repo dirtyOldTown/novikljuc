@@ -1,33 +1,6 @@
-// Preload images
-  let images = [
-        'images/avatar1.jpg',
-        'images/avatar2.jpg',
-        'images/avatar3.jpg',
-    ];
+// Testemonials
 
-    const progressBar = document.querySelector(".progress-bar");
-
-    // Loads the images one at a time, then calls the callback function when all images
-    // have been loaded.
-    function loadImages(images, index) {
-        if (index < images.length) {
-            let img = new Image();
-            img.src = images[index];
-            images[index] = img;
-            images[index].onload = function() {
-              loadImages(images, ++index);
-              progressBar.style.animation = "grow 10s linear infinite";
-            };
-        }
-    }
-   
-      loadImages(images, 0);
-        // Your slideshow code goes here. This is just example code
-        // of adding the images to your document once they are all loaded
-        setTimeout(() => {
-          setInterval(updateTestemonials, 10000);
-        })
-
+// Testemonials content
 const testemonials = [
   {
     text: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -77,6 +50,33 @@ function updateTestemonials() {
     idx = 0;
   }
 }
+
+// Preload images
+const images = [
+  "images/avatar1.jpg",
+  "images/avatar2.jpg",
+  "images/avatar3.jpg",
+];
+
+const progressBar = document.querySelector(".progress-bar");
+
+function preloadImages(images, index) {
+  if (index < images.length) {
+    let img = new Image();
+    img.src = images[index];
+    images[index] = img;
+    images[index].onload = function() {
+      preloadImages(images, ++index);
+      progressBar.style.animation = "grow 10s linear infinite";
+    }
+  }
+}
+
+preloadImages(images, 0);
+
+setTimeout(() => {
+  setInterval(updateTestemonials, 10000);
+});
 
 
   
