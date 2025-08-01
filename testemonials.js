@@ -7,25 +7,22 @@
 
     // Loads the images one at a time, then calls the callback function when all images
     // have been loaded.
-    function loadImages(images, index, callback) {
+    function loadImages(images, index) {
         if (index < images.length) {
             let img = new Image();
             img.src = images[index];
             images[index] = img;
             images[index].onload = function() {
-                loadImages(images, ++index, callback);
+              loadImages(images, ++index);
             };
-        } else {
-            callback(images);
         }
     }
-    window.onload = function() {
-      loadImages(images, 0, (images) => {
+   
+      loadImages(images, 0);
         // Your slideshow code goes here. This is just example code
         // of adding the images to your document once they are all loaded
         setInterval(updateTestemonials, 10000);
-      });
-    };
+
 
 
 const testemonials = [
