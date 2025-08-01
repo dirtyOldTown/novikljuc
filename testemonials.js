@@ -24,9 +24,9 @@
       loadImages(images, 0);
         // Your slideshow code goes here. This is just example code
         // of adding the images to your document once they are all loaded
-        setInterval(updateTestemonials, 10000);
-
-
+        setTimeout(() => {
+          setInterval(updateTestemonials, 10000);
+        })
 
 const testemonials = [
   {
