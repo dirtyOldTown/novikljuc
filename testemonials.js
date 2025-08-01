@@ -20,13 +20,11 @@
         }
     }
     window.onload = function() {
-        loadImages(images, 0, (images) => {
-            // Your slideshow code goes here. This is just example code
-            // of adding the images to your document once they are all loaded
-            images.forEach((item) => {
-               document.querySelector('body').appendChild(item);
-            });
-        });
+      loadImages(images, 0, (images) => {
+        // Your slideshow code goes here. This is just example code
+        // of adding the images to your document once they are all loaded
+        setInterval(updateTestemonials, 10000);
+      });
     };
 
 
@@ -81,7 +79,6 @@ function updateTestemonials() {
   }
 }
 
-setInterval(updateTestemonials, 10000);
 
   
 
