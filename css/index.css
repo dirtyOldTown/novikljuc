@@ -219,12 +219,14 @@
 /* Tagovi - Kartice*/
 .tagovi-kartice {
   background-color: var(--secondary-white);
-  background-color: #f3ebff;
+  background-color: #f9f7e5;
   color: var(--secondary-black);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 6.4rem;
+  border-top: 0.1rem solid #e4e1bc;
+  border-bottom  : 0.1rem solid #e4e1bc;
 }
 .tagovi-kartice-content {
  flex: 1 1 40rem;
