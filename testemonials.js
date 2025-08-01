@@ -5,6 +5,8 @@
         'images/avatar3.jpg',
     ];
 
+    const progressBar = document.querySelector(".progress-bar");
+
     // Loads the images one at a time, then calls the callback function when all images
     // have been loaded.
     function loadImages(images, index) {
@@ -14,6 +16,7 @@
             images[index] = img;
             images[index].onload = function() {
               loadImages(images, ++index);
+              progressBar.style.animation = "grow 10s linear infinite";
             };
         }
     }
@@ -58,7 +61,6 @@ const testemonialText = document.querySelector(".testemonial-text");
 const testemonialName = document.querySelector(".name");
 const testemonialRole = document.querySelector(".role");
 const testemonialImage = document.querySelector(".testemonial-image img");
-const progressBar = document.querySelector(".progress-bar");
 
 function updateTestemonials() {
   const {text, name, image, role} = testemonials[idx];
