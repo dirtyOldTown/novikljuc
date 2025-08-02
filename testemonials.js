@@ -69,10 +69,10 @@ function preloadImages(images, index) {
       preloadImages(images, ++index);
     }
   }
+  progressBar.style.animation = "grow 10s linear infinite";
 }
 
 preloadImages(images, 0);
-progressBar.style.animation = "grow 10s linear infinite";
 
 setTimeout(() => {
   setInterval(updateTestemonials, 10000);
