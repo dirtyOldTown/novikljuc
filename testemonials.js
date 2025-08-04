@@ -67,7 +67,7 @@ function preloadImages(images, index) {
     images[index] = img;
     images[index].onload = function() {
       preloadImages(images, ++index);
-      progressBar.style.animation = "grow 10s linear infinite";
+      progressBar.style.animation = "grow 10050 linear infinite";
     }
   }
 }
