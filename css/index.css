@@ -35,7 +35,6 @@
   max-height: 36rem;
   width: 100%;
   object-fit: cover;
-  border-radius: 0.8rem;
   filter: brightness(80%);
   transition: filter 1s;
 }
