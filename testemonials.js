@@ -71,12 +71,12 @@ function preloadImages(images, index) {
   }
 }
 
-progressBar.style.animation = "grow 10s linear infinite";
 preloadImages(images, 0);
 
 setTimeout(() => {
+  progressBar.style.animation = "grow 10s linear infinite";
   setInterval(updateTestemonials, 10000);
-});
+}, 500);
 
 
   
