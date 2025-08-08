@@ -82,10 +82,12 @@ h2 {
     justify-content: center;
   }
   .mapa {
+    order: 1;
     margin-left: 0;
     margin-top: 4.8rem;
   }
   .text {
+    order: 2;
     margin-top: 3.2rem;
   }
 }
