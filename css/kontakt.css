@@ -85,6 +85,17 @@ h2 {
     margin-left: 0;
     margin-top: 4.8rem;
   }
+  .text {
+    margin-top: 3.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mapa {
+    width: 100%;
+  }
+  .mapa iframe {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 600px) {
   body {
