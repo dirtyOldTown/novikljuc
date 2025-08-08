@@ -74,6 +74,7 @@ h2 {
   text-align: center;
   font-family: 'Oswald-SemiBold';
   font-size: 2rem;
+  color: var(--orange);
 }
 
 /* Responsive */
