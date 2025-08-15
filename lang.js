@@ -50,8 +50,8 @@ window.addEventListener("DOMContentLoaded", async () => {
 function createLangContainer() {
   const element = document.createElement("div");
   element.classList.add("languages-container");
-  element.innerHTML = `<div onclick="changeLanguage('sr')"><img src="images/sr.webp" width="16"><span class="lang-container-srb">Srpski</span></div>
-   <div onclick="changeLanguage('en')"><img src="images/en.webp" width="16"><span class="lang-container-en">English</span></div>
+  element.innerHTML = `<div class="sr" onclick="changeLanguage('sr')"><img src="images/sr.webp" width="16"><span class="lang-container-srb">Srpski</span></div>
+   <div class="en" onclick="changeLanguage('en')"><img src="images/en.webp" width="16"><span class="lang-container-en">English</span></div>
   `;
   switchHandler.appendChild(element);
 }
@@ -63,6 +63,10 @@ switchHandler.addEventListener("click", (e) => {
   const langContainer = document.querySelector(".languages-container");
   langContainer.classList.toggle("visible");
 }, true)
+
+// Highloght current language
+let lang = localStorage.getItem("language");
+document.querySelector(`.${lang}`).style.backgroundColor = "#cdd8c7";
 
 
 

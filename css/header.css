@@ -79,7 +79,10 @@ position: relative;
 left: 8px
 }
 .languages-container div:hover {
-  background-color: var(--orange);
+  background-color: #cdd8c7;
+}
+.lang-used {
+  background-color: #cdd8c7;
 }
 .lang-arrow-down {
   font-size: 30px;
