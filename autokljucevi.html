@@ -18,6 +18,7 @@
   <script src="mobile.js" defer></script>
   <script src="modal.js" defer></script>
   <script src="auto.js" defer></script>
+  <script src="lang.js" defer></script>
   <style>
     * {
       box-sizing: border-box;
@@ -125,41 +126,46 @@
   </style>
 </head>
 <body>
+<div class="switch-container">
+    <div class="switch">
+      <div><img src="images/sr.webp" width="16"> &nbsp;<span class="lang-name">SR</span><span class="lang-arrow-down">&#129171;</span></div>
+    </div>
+  </div>
   <header class="header-container">
     <div class="header-logo">
        LOGO
     </div>
     <nav class="menu">
       <ul>
-        <li><a href="index.html">Početna</a></li>
-        <li><a id="current-page" href="autokljucevi.html">Auto-Ključevi</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="index.html" data-lang="pocetna">Početna</a></li>
+        <li><a id="current-page" href="autokljucevi.html" data-lang="auto-kljucevi">Auto-Ključevi</a></li>
+        <li><a href="kontakt.html" data-lang="kontakt">Kontakt</a></li>
       </ul> 
     </nav>
     <div class="header-contact">
-      <div>Hajduk Veljkova 48c, Guncati, Barajevo</div>
-      <div><a class="phone" href="tel:+381601585522"><i class="fa fas fas fa-mobile-alt"></i> &nbsp;060 1585522</a></div>
+      <div>
+        <div data-lang="header-adresa">Hajduk Veljkova 48c, Guncati, Barajevo</div>
+        <div><a class="phone" href="tel:+381601585522"><i class="fa fas fas fa-mobile-alt"></i><span  data-lang="header-telefon"> &nbsp;060 1585522</span></a></div>
+      </div>
     </div>
   </header>
   <header class="header-mobile">
     <div class="header-mobile-container">
       <div class="bars">
-        <i class="fa-solid fa-bars-staggered fa-2x"></i>
+        <i class="fa-solid fa-bars-staggered fa-2x font-display"></i>
       </div>
-      <div>NOVI KLJUČ</div>
-      <div class="logo-mobile">LOGO</div>
-    </div>
+      <div class="mobilni-novi-kljuc">LOGO</div>
     <nav class="navigation-mobile">
       <div class="close-button" id="close-button">
-        <i class="fa-solid fa-circle-xmark fa-2x"></i>
+        <i class="fa-solid fa-circle-xmark fa-2x font-display"></i>
       </div>
       <ul>
-        <li><a href="index.html">Početna</a></li>
-        <li><a id="current-page" href="autokljucevi.html">Auto-Ključevi</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="index.html" data-lang="pocetna">Početna</a></li>
+        <li><a  id="current-page" href="autokljucevi.html" data-lang="auto-kljucevi">Auto-Ključevi</a></li>
+        <li><a href="kontakt.html" data-lang="kontakt">Kontakt</a></li>
       </ul> 
     </nav>
-  </header> 
+  </header>
   <section class="hero-section">
     <h1>IZRADA AUTO KLJUČEVA</h1>
     <div class="button-container">
