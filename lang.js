@@ -1,0 +1,68 @@
+const switchHandler= document.querySelector(".switch");
+
+//Function to update content
+function updateContent(langData) {
+  const elements = document.querySelectorAll("[data-lang]");
+  elements.forEach(element => {
+  const key = element.getAttribute("data-lang");
+  element.innerHTML = langData[key];
+  });
+}
+
+// Change header language content
+function changeMainLanguageContent(lang) {
+  const mainLanguageImage = document.querySelector(".switch img");
+  mainLanguageImage.src = `images/${lang}.webp`;
+
+  const mainLanguageName = document.querySelector(".switch .lang-name");
+  mainLanguageName.textContent = lang.toUpperCase();
+}
+
+// Function to set the language preference
+function setLanguagePreference(lang) {
+  localStorage.setItem("language", lang);
+  location.reload();
+}
+
+// Function to fetch language data
+async function fetchLanguageData(lang) {
+  const response = await fetch(`languages/${lang}.json`);
+  return response.json();
+}
+
+// Function to change language
+async function changeLanguage(lang) {
+  setLanguagePreference(lang);
+  const langData = await fetchLanguageData(lang);
+  updateContent(langData);
+  changeMainLanguageContent(lang);
+}
+
+// Call updateContent() on page load
+window.addEventListener("DOMContentLoaded", async () => {
+  const userPreferredLanguage = localStorage.getItem("language") || "sr";
+  const langData = await fetchLanguageData(userPreferredLanguage);
+  changeMainLanguageContent(userPreferredLanguage);
+  updateContent(langData);
+});
+
+// Create language content container
+function createLangContainer() {
+  const element = document.createElement("div");
+  element.classList.add("languages-container");
+  element.innerHTML = `<div onclick="changeLanguage('sr')"><img src="images/sr.webp" width="16"><span class="lang-container-srb">Srpski</span></div>
+   <div onclick="changeLanguage('en')"><img src="images/en.webp" width="16"><span class="lang-container-en">English</span></div>
+  `;
+  switchHandler.appendChild(element);
+}
+
+createLangContainer();
+
+// Main event handler
+switchHandler.addEventListener("click", (e) => {
+  const langContainer = document.querySelector(".languages-container");
+  langContainer.classList.toggle("visible");
+}, true)
+
+
+

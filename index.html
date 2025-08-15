@@ -144,22 +144,30 @@
   <script src="testemonials.js" defer></script>
   <script src="slide.js" defer></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="lang.js" defer></script>
 </head>
 <body>
+  <div class="switch-container">
+    <div class="switch">
+      <div><img src="images/sr.webp" width="16"> &nbsp;<span class="lang-name">SR</span><span class="lang-arrow-down">&#129171;</span></div>
+    </div>
+  </div>
   <header class="header-container">
     <div class="header-logo">
        LOGO
     </div>
     <nav class="menu">
       <ul>
-        <li><a id="current-page" href="index.html">Početna</a></li>
-        <li><a href="autokljucevi.html">Auto-Ključevi</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a id="current-page" href="index.html" data-lang="pocetna">Početna</a></li>
+        <li><a href="autokljucevi.html" data-lang="auto-kljucevi">Auto-Ključevi</a></li>
+        <li><a href="kontakt.html" data-lang="kontakt">Kontakt</a></li>
       </ul> 
     </nav>
     <div class="header-contact">
-      <div>Hajduk Veljkova 48c, Guncati, Barajevo</div>
-      <div><a class="phone" href="tel:+381601585522"><i class="fa fas fas fa-mobile-alt"></i> &nbsp;060 1585522</a></div>
+      <div>
+        <div data-lang="header-adresa">Hajduk Veljkova 48c, Guncati, Barajevo</div>
+        <div><a class="phone" href="tel:+381601585522"><i class="fa fas fas fa-mobile-alt"></i><span  data-lang="header-telefon"> &nbsp;060 1585522</span></a></div>
+      </div>
     </div>
   </header>
   <header class="header-mobile">
@@ -167,31 +175,29 @@
       <div class="bars">
         <i class="fa-solid fa-bars-staggered fa-2x font-display"></i>
       </div>
-      <div>NOVI KLJUČ</div>
-      <div class="logo-mobile">LOGO</div>
-    </div>
+      <div class="mobilni-novi-kljuc">LOGO</div>
     <nav class="navigation-mobile">
       <div class="close-button" id="close-button">
         <i class="fa-solid fa-circle-xmark fa-2x font-display"></i>
       </div>
       <ul>
-        <li><a id="current-page" href="index.html">Početna</a></li>
-        <li><a href="autokljucevi.html">Auto-Ključevi</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a id="current-page" href="index.html" data-lang="pocetna">Početna</a></li>
+        <li><a href="autokljucevi.html" data-lang="auto-kljucevi">Auto-Ključevi</a></li>
+        <li><a href="kontakt.html" data-lang="kontakt">Kontakt</a></li>
       </ul> 
     </nav>
   </header>
   <section class="hero-section">
     <div class="hero-content">
-      <p class="bravarska-radnja"><strong>BRAVARSKA RADNJA - NOVI KLJUČ</strong></p>
-      <h1>
+      <p class="bravarska-radnja"><strong data-lang="hero-bravarska-radnja">BRAVARSKA RADNJA - NOVI KLJUČ</strong></p>
+      <h1 data-lang="h1">
         IZRADA KLJUČEVA 
         I BRAVARSKE USLUGE
       </h1>
       <ul class="hero-list">
-        <li><strong>Izrada i kopiranje standardnih, tačkastih, specijalnih i auto ključeva</strong></li>
-        <li><strong>Izrada tagova i čip kartica.</strong></li>
-        <li>Izlazak na teren radi otvaranja brava, u slučaju izgubljenih ključeva, kao i za zamenu istih.</li>
+        <li><strong data-lang="hero-list1">Izrada i kopiranje standardnih, tačkastih, specijalnih i auto ključeva</strong></li>
+        <li><strong data-lang="hero-list2">Izrada tagova i čip kartica</strong></li>
+        <li data-lang="hero-list3">Izlazak na teren radi otvaranja brava, u slučaju izgubljenih ključeva, kao i za zamenu istih</li>
       </ul>
     </div>
     <div class="hero-image">

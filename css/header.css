@@ -21,15 +21,73 @@
   transition: color 0.4s;
 }
 #current-page {
-  /* border-bottom: 0.3rem solid var(--primary-link);
-  padding-bottom: 0.2rem; */
   color: #feba3e;
 }
 .header-contact {
+  display: flex;
+  align-items: flex-start;
   font-family: 'Montserrat-Regular';
   line-height: 2.4rem;
   font-size: 1.4rem;
+  position: relative;
+  right: 4.8rem;
 }
+.switch-container {
+  display: flex;
+}
+.switch {
+  margin-top: 1rem;
+  font-weight: 600;
+  position: absolute;
+  right: 1.6rem;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  z-index: 1;
+}
+.switch > :first-child {
+  opacity: 0.8;
+  transition: opacity 0.4s;
+}
+.switch > :first-child:hover {
+  opacity: 1;
+}
+.languages-container {
+  position: absolute;
+  top: 4.1rem;
+  right: -1.6rem;
+  background-color: var(--secondary-white);
+  color: var(--primary-black);
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+  border: 0.2rem solid var(--primary-black);
+}
+.visible {
+  transform: scaleY(1);
+}
+.languages-container > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.8rem 2rem;
+  padding-left: 0.5rem;
+  padding-right: 3.6rem;
+}
+.lang-container-en {
+position: relative;
+left: 8px
+}
+.languages-container div:hover {
+  background-color: var(--orange);
+}
+.lang-arrow-down {
+  font-size: 30px;
+  position:relative;
+  bottom: -17px;
+  left: 2px;
+}
+
 .header-contact a:last-of-type {
   font-family: 'Montserrat-Bold';
   color: var(--orange);
@@ -39,7 +97,6 @@
   opacity: 1;
 }
 
-
 /* Mobilni */
 .header-mobile {
   display: none;
@@ -47,7 +104,7 @@
 .header-mobile-container {
   font-family: 'Oswald-Bold';
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding: 2rem;
   background-color: var(--primary-black);
@@ -92,6 +149,9 @@
 }
 .close:hover {
   opacity: 1;
+}
+.mobilni-novi-kljuc {
+ margin-left: 6.4rem;
 }
 
 /* Responsive */
