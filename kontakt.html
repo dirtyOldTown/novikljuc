@@ -216,27 +216,36 @@
       </article>
     </div>
     <div class="mapa-text">
-      <div class="text">
-        <ul>
-          <li id="naslov"><strong>BRAVARSKA RADNJA - NOVI KLJUČ</strong></li>
-          <li>Mi smo mala porodična firma koja se bavi izradom i kopiranjem 
-            raznih vrsta ključeva i bravarskim uslugama na terenu.
+      <form class="text" action="contact.php" method="post">
+        <ul class="form-container">
+          <li>
+            <h3>FORMA ZA UPIT</h3>
           </li>
-          <li>Firma je osnovana 24-03-2025.</li>
-          <li>Pun naziv firme je: PR Bravarska radnja Novi Ključ.</li>
-          <li>Osnivač i vlasnik je <i>Zlatomir Jelisavac</i>.</li>
-          <li>Osnovna delatnost firme je narezivanje ključeva. </li>
-          <li>Lokacije firme je u beogradskoj opštini Barajevo.
+          <li>
+            <label for="email">Vaš email:</label>
+            <input type="email" id="email" name="email">
+          </li>
+          <li>
+            <label for="name">Vaše ime:</label>
+            <input type="text" id="name" name="name">
+          </li> 
+          <!-- 
+          <li>
+            <label for="predmet">Predmet:</label>
+            <input type="predmet" id="predmet" name="predmet">
+          </li>  
+          -->
+          <li>
+            <label>Ostavite poruku:</label>
+            <textarea placeholder="Write something" id="poruka" name="poruka" rows="10" cols="40"></textarea>
+          </li>
+          <li>
+            <button type="submit">Pošalji poruku</button>
           </li>
         </ul>
-      </div>
+      </form>
       <div class="mapa">
         <iframe title="Lokacije bravarse radnje 'Novi Ključ'" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.958451044451!2d20.39673977511623!3d44.61832438947947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a0c6152f85eab%3A0xf133df2cae26a40a!2z0KXQsNGY0LTRg9C6INCS0LXRmdC60L7QstCwIDQ4LCDQk9GD0L3RhtCw0YLQuA!5e0!3m2!1ssr!2srs!4v1754634142262!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <!--
-        <a title="Potražite nas na google maps" href="https://www.google.com/maps/place/%D0%A5%D0%B0%D1%98%D0%B4%D1%83%D0%BA+%D0%92%D0%B5%D1%99%D0%BA%D0%BE%D0%B2%D0%B0+48,+%D0%93%D1%83%D0%BD%D1%86%D0%B0%D1%82%D0%B8/@44.6189239,20.3995883,17z/data=!4m6!3m5!1s0x475a0c6152f85eab:0xf133df2cae26a40a!8m2!3d44.6183206!4d20.3993147!16s%2Fg%2F11kx2btrfv?entry=ttu&g_ep=EgoyMDI1MDcwOS4wIKXMDSoASAFQAw%3D%3D">
-          <img src="images/mapa-guncati.png" alt="mapa-guncati" title="Potražite nas na google maps">
-        </a>
-        -->
       </div>
     </div>
   </main>
