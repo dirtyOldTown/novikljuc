@@ -52,7 +52,7 @@ function createLangContainer(lang) {
   const element = document.createElement("div");
   element.classList.add("languages-container");
   if (lang == "en") {
-    element.innerHTML = `<div class="sr" onclick="changeLanguage('sr')"><img src="images/sr.webp" width="16"><span class="lang-container-srb">Srpski</span></div>`;
+    element.innerHTML = `<div class="sr" onclick="changeLanguage('sr')"><img src="images/sr.webp" width="16"><span class="lang-container-sr">Srpski</span></div>`;
     switchHandler.appendChild(element);
   } else {
       element.innerHTML = `<div class="en" onclick="changeLanguage('en')"><img src="images/en.webp" width="16"><span class="lang-container-en">English</span></div>`;
