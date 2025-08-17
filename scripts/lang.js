@@ -42,21 +42,25 @@ async function changeLanguage(lang) {
 window.addEventListener("DOMContentLoaded", async () => {
   const userPreferredLanguage = localStorage.getItem("language") || "sr";
   const langData = await fetchLanguageData(userPreferredLanguage);
+  createLangContainer(userPreferredLanguage);
   changeMainLanguageContent(userPreferredLanguage);
   updateContent(langData);
 });
 
 // Create language content container
-function createLangContainer() {
+function createLangContainer(lang) {
   const element = document.createElement("div");
   element.classList.add("languages-container");
-  element.innerHTML = `<div class="sr" onclick="changeLanguage('sr')"><img src="images/sr.webp" width="16"><span class="lang-container-srb">Srpski</span></div>
-   <div class="en" onclick="changeLanguage('en')"><img src="images/en.webp" width="16"><span class="lang-container-en">English</span></div>
-  `;
-  switchHandler.appendChild(element);
+  if (lang == "en") {
+    element.innerHTML = `<div class="sr" onclick="changeLanguage('sr')"><img src="images/sr.webp" width="16"><span class="lang-container-srb">Srpski</span></div>`;
+    switchHandler.appendChild(element);
+  } else {
+      element.innerHTML = `<div class="en" onclick="changeLanguage('en')"><img src="images/en.webp" width="16"><span class="lang-container-en">English</span></div>`;
+      switchHandler.appendChild(element);
+  }
+  
 }
 
-createLangContainer();
 
 // Main event handler
 switchHandler.addEventListener("click", (e) => {
