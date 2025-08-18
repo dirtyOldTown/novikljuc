@@ -1,5 +1,6 @@
 /* Hero Section */
 .hero-section {
+  margin-top: 9.64rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -62,7 +63,8 @@
   .hero-content {
     margin-right: 0;
   }
-    .hero-section {
+  .hero-section {
+    margin-top: 0;
     justify-content: center;
   }
   .hero-section h1 {

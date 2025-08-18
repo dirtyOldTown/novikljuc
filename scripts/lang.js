@@ -68,9 +68,15 @@ switchHandler.addEventListener("click", (e) => {
   langContainer.classList.toggle("visible");
 }, true)
 
-// Highloght current language
-let lang = localStorage.getItem("language");
-document.querySelector(`.${lang}`).style.backgroundColor = "#cdd8c7";
 
+let img = document.querySelector(".header-logo img");
+document.addEventListener("scroll", (e) => {
+  let limit = window.pageYOffset;
+  if (limit > 200) {
+    img.style.width = 32 + "px"
+  } else {
+    img.style.width = 64 + "px"
+  }
+});
 
 
