@@ -46,13 +46,6 @@
   color: white;
   z-index: 1;
 }
-.switch > :first-child {
-  opacity: 0.8;
-  transition: opacity 0.4s;
-}
-.switch > :first-child:hover {
-  opacity: 1;
-}
 .languages-container {
   position: absolute;
   top: 4.1rem;
@@ -62,7 +55,6 @@
   transform: scaleY(0);
   transform-origin: top;
   transition: transform 0.5s;
-  border: 0.2rem solid var(--primary-black);
 }
 .visible {
   transform: scaleY(1);
@@ -73,14 +65,11 @@
   padding: 0.8rem 2rem;
   padding-left: 0.5rem;
   padding-right: 3.6rem;
+  align-items: center;
 }
-.lang-container-sr {
-position: relative;
-left: 8px
-}
-.lang-container-en {
-position: relative;
-left: 8px
+.lang-container-sr, .lang-container-en {
+  position: relative;
+  left: 8px
 }
 .lang-arrow-down {
   font-size: 30px;
