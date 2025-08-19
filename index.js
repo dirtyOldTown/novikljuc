@@ -32,4 +32,3 @@ document.addEventListener("click", tabsHandler);
 // Scroll to top
 
 
-

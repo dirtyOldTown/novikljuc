@@ -72,11 +72,32 @@ switchHandler.addEventListener("click", (e) => {
 let img = document.querySelector(".header-logo img");
 document.addEventListener("scroll", (e) => {
   let limit = window.pageYOffset;
+  console.log(limit)
   if (limit > 200) {
-    img.style.width = 32 + "px"
+    img.style.width = 32 + "px";
   } else {
-    img.style.width = 64 + "px"
+    img.style.width = 64 + "px";
   }
 });
 
+// Scroll to top
+let div = document.createElement("div");
+div.innerHTML = '<i class="fa-solid fa-angle-up"></i>';
+div.classList.add("scroll-to-top")
+document.body.append(div);
+document.addEventListener("scroll", () => {
+    let limit = window.pageYOffset;
+  if (limit > 700) {
+      div.style.display = "block";
+  } 
+  else if (limit < 199) {
+    div.style.display = "none";
+  }
+})
 
+div.addEventListener("click", () => {
+  document.body.scrollIntoView({
+    behavior: "smooth",
+    block:"start"
+  });
+});
