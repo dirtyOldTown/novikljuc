@@ -71,7 +71,6 @@ let img = document.querySelector(".header-logo img");
 
 document.addEventListener("scroll", (e) => {
   let limit = window.pageYOffset;
-  console.log(limit)
   if (limit > 200) {
     img.style.width = 32 + "px";
     switchHandler.style.marginTop = "1rem";
