@@ -61,22 +61,23 @@ function createLangContainer(lang) {
   
 }
 
-
-// Main event handler
 switchHandler.addEventListener("click", (e) => {
   const langContainer = document.querySelector(".languages-container");
   langContainer.classList.toggle("visible");
 }, true)
 
-
+// Logo on scroll 
 let img = document.querySelector(".header-logo img");
+
 document.addEventListener("scroll", (e) => {
   let limit = window.pageYOffset;
   console.log(limit)
   if (limit > 200) {
     img.style.width = 32 + "px";
+    switchHandler.style.marginTop = "1rem";
   } else {
     img.style.width = 64 + "px";
+    switchHandler.style.marginTop = "2rem";
   }
 });
 
@@ -86,7 +87,7 @@ div.innerHTML = '<i class="fa-solid fa-angle-up"></i>';
 div.classList.add("scroll-to-top")
 document.body.append(div);
 document.addEventListener("scroll", () => {
-    let limit = window.pageYOffset;
+  let limit = window.pageYOffset;
   if (limit > 700) {
       div.style.display = "block";
   } 

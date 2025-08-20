@@ -43,7 +43,7 @@
   display: flex;
 }
 .switch {
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-weight: 600;
   position: fixed;
   right: 1.6rem;
@@ -51,6 +51,7 @@
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+  transition: margin-top 0.5s ease;
   z-index: 100;
 }
 .languages-container {
@@ -117,7 +118,7 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.9);
   padding-top: 2.4rem;
-  z-index: 1;
+  z-index: 1000;
   overflow-x: hidden;
   transition: width 0.4s;
 }
@@ -160,6 +161,7 @@
   }
   .switch {
     position: absolute;
+    margin-top: 1rem;
   }
 }
 
