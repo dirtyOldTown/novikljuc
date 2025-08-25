@@ -1,5 +1,6 @@
 /* Intro */
 .intro {
+  content-visibility: auto;
   font-family: 'Lora-Medium';
   color: var(--secondary-black);
   display: flex;
@@ -51,6 +52,7 @@
 
 /*Tabs */
 .tabs-header {
+  content-visibility: auto;
   font-family: 'Oswald-SemiBold';
   background-color: var(--secondary-black);
   background-color: var(--dark-blue);
@@ -77,6 +79,7 @@
   color: var(--highlight);
 }
 .tab-content {
+  content-visibility: auto;
   display: none;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -159,6 +162,7 @@
 
 /* Tagovi - Kartice*/
 .tagovi-kartice {
+  content-visibility: auto;
   background-color: var(--secondary-white);
   background-color: #f9f7e5;
   color: var(--secondary-black);
@@ -189,6 +193,7 @@
 
 /* Bravarske usluge */
 .bravarske-usluge {
+  content-visibility: auto;
   display: flex;
   flex-wrap: wrap;
   font-family: 'Lora-Medium';
