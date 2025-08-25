@@ -61,16 +61,43 @@ function createLangContainer(lang) {
   
 }
 
-
-// Main event handler
 switchHandler.addEventListener("click", (e) => {
   const langContainer = document.querySelector(".languages-container");
   langContainer.classList.toggle("visible");
 }, true)
 
-// Highloght current language
-let lang = localStorage.getItem("language");
-document.querySelector(`.${lang}`).style.backgroundColor = "#cdd8c7";
+// Logo on scroll 
+let img = document.querySelector(".header-logo img");
 
+document.addEventListener("scroll", (e) => {
+  let limit = window.pageYOffset;
+  if (limit > 200) {
+    img.style.width = 32 + "px";
+    switchHandler.style.marginTop = "1rem";
+  } else {
+    img.style.width = 64 + "px";
+    switchHandler.style.marginTop = "2rem";
+  }
+});
 
+// Scroll to top
+let div = document.createElement("div");
+div.innerHTML = '<i class="fa-solid fa-angle-up"></i>';
+div.classList.add("scroll-to-top")
+document.body.append(div);
+document.addEventListener("scroll", () => {
+  let limit = window.pageYOffset;
+  if (limit > 700) {
+      div.style.display = "block";
+  } 
+  else if (limit < 199) {
+    div.style.display = "none";
+  }
+})
 
+div.addEventListener("click", () => {
+  document.body.scrollIntoView({
+    behavior: "smooth",
+    block:"start"
+  });
+});

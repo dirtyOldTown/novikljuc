@@ -29,6 +29,6 @@ document.addEventListener("click", tabsHandler);
   standardniKljučevi.style.display = "flex";
   tabLinks[0].classList.add("active");
 
-
+// Scroll to top
 
 

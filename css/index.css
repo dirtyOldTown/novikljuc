@@ -254,11 +254,6 @@
   padding: 3.2rem 1.6rem;
   padding-bottom: 2.4rem;
 }
-/*
-.testemonial-text {
-  min-height: 10.4rem;
-}
-  */
 .quote {
   position: absolute;
   font-size: 3.2rem;
@@ -322,7 +317,7 @@
 }
 .arrow {
   position: absolute;
-  z-index: 1000;
+  z-index: 1;
   background-color: rgba(192, 192, 192, 0.7);
   padding: 0.4rem 0.8rem;
   cursor: pointer;
@@ -345,6 +340,22 @@
 }
 .angle-color {
   color:var(--secondary-black);
+}
+
+/* Scroll to top */
+.scroll-to-top {
+  position: fixed;
+  right: 0.2rem;
+  bottom: 0.2rem;
+  border-radius: 0.5rem;
+  padding: 0.8rem 1.2rem;
+  background-color: var(--primary-black);
+  color: var(--secondary-white);
+  display: none;
+  cursor: pointer;
+}
+.scroll-to-top:hover {
+  opacity: 0.9;
 }
 
 @media screen and (max-width: 767px) {
